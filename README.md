@@ -35,6 +35,11 @@ cp Prokka-Genome-annotation/prokka.py ./
 ```bash
 rm -rf Prokka-Genome-annotation
 ```
+7. Run the script
+```bash
+python3 prokka.py
+```
+
 
 ### Input Subdirectory ###
 The input directory is used to store genome files (.fasta or .fna) that will be annotated. Place all bacterial genome sequences here before running Prokka.
