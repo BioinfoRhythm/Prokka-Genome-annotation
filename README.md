@@ -4,25 +4,37 @@ Batch Processing: Allows annotation of multiple genome inputs simultaneously.
 ### Steps ###
 1. Create the main directory
 
-```mkdir XYZ```
+```bash
+mkdir XYZ
+```
 
 2. Create subdirectories for input and output
 
-```mkdir XYZ/input XYZ/output```
+```bash 
+mkdir XYZ/input XYZ/output
+```
 
 3. Place your genome files inside the input directory
 
-```cp path/to/genomes/*.fasta XYZ/input/```
+```bash 
+cp path/to/genomes/*.fasta XYZ/input/
+```
 
 4. Clone this repository to your local machine
 
-```git clone https://github.com/BioinfoRhythm/Prokka-Genome-annotation.git```
+```bash 
+git clone https://github.com/BioinfoRhythm/Prokka-Genome-annotation.git
+```
 
 5. Copy only prokka.py from the cloned repo into your current directory
+```bash
 cp Prokka-Genome-annotation/prokka.py ./
+```
 
 6. (Optional) Remove the cloned folder if you don’t need the rest
+```bash
 rm -rf Prokka-Genome-annotation
+```
 
 ### Input Subdirectory ###
 The input directory is used to store genome files (.fasta or .fna) that will be annotated. Place all bacterial genome sequences here before running Prokka.
