@@ -71,4 +71,4 @@ If you use this repository or Prokka in your research, please cite the following
 Seemann, T. (2014). Prokka: rapid prokaryotic genome annotation. Bioinformatics, 30(14), 2068–2069. https://doi.org/10.1093/bioinformatics/btu153
 
 ### Citation ### 
-If you are using the protparam_analysis.py script for your research, please consider citing it as follows: Sharma, R. (2024).prokka.py. Retrieved from https://github.com/BioinfoRhythm/Prokka-Genome-annotation.git. 
+If you are using the prokka.py script for your research, please consider citing it as follows: Sharma, R. (2024).prokka.py. Retrieved from https://github.com/BioinfoRhythm/Prokka-Genome-annotation.git. 
